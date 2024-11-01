@@ -1,0 +1,316 @@
+@font-face {
+    font-family: 'wp-appointments';
+    src:url('../fonts/wp-appointments.eot?2iawon');
+    src:url('../fonts/wp-appointments.eot?2iawon#iefix') format('embedded-opentype'),
+        url('../fonts/wp-appointments.ttf?2iawon') format('truetype'),
+        url('../fonts/wp-appointments.woff?2iawon') format('woff'),
+        url('../fonts/wp-appointments.svg?2iawon#wp-appointments') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[data-icon]:before {
+    font-family: "wp-appointments" !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+[class^="dashicons-wp-app-"]:before,
+[class*=" dashicons-wp-app-"]:before {
+    font-family: "wp-appointments" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.dashicons-wp-app-mailbox:before {
+    content: "\e944";
+}
+.dashicons-wp-app-upload:before {
+    content: "\e947";
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path1:before {
+    content: "\e900";
+    color: rgb(217, 167, 65);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path2:before {
+    content: "\e901";
+    margin-left: -1em;
+    color: rgb(98, 74, 30);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path3:before {
+    content: "\e902";
+    margin-left: -1em;
+    color: rgb(135, 105, 41);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path4:before {
+    content: "\e903";
+    margin-left: -1em;
+    color: rgb(217, 167, 65);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path5:before {
+    content: "\e904";
+    margin-left: -1em;
+    color: rgb(217, 167, 65);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path6:before {
+    content: "\e905";
+    margin-left: -1em;
+    color: rgb(135, 105, 41);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path7:before {
+    content: "\e906";
+    margin-left: -1em;
+    color: rgb(98, 74, 30);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path8:before {
+    content: "\e907";
+    margin-left: -1em;
+    color: rgb(217, 167, 65);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path9:before {
+    content: "\e908";
+    margin-left: -1em;
+    color: rgb(135, 105, 41);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path10:before {
+    content: "\e909";
+    margin-left: -1em;
+    color: rgb(98, 74, 30);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path11:before {
+    content: "\e90a";
+    margin-left: -1em;
+    color: rgb(217, 167, 65);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path12:before {
+    content: "\e90b";
+    margin-left: -1em;
+    color: rgb(135, 105, 41);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path13:before {
+    content: "\e90c";
+    margin-left: -1em;
+    color: rgb(135, 105, 41);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path14:before {
+    content: "\e90d";
+    margin-left: -1em;
+    color: rgb(217, 167, 65);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path15:before {
+    content: "\e90e";
+    margin-left: -1em;
+    color: rgb(98, 74, 30);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path16:before {
+    content: "\e90f";
+    margin-left: -1em;
+    color: rgb(135, 105, 41);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path17:before {
+    content: "\e910";
+    margin-left: -1em;
+    color: rgb(98, 74, 30);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path18:before {
+    content: "\e911";
+    margin-left: -1em;
+    color: rgb(217, 167, 65);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path19:before {
+    content: "\e912";
+    margin-left: -1em;
+    color: rgb(250, 215, 145);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path20:before {
+    content: "\e913";
+    margin-left: -1em;
+    color: rgb(135, 105, 41);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path21:before {
+    content: "\e914";
+    margin-left: -1em;
+    color: rgb(217, 167, 65);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path22:before {
+    content: "\e915";
+    margin-left: -1em;
+    color: rgb(135, 105, 41);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path23:before {
+    content: "\e916";
+    margin-left: -1em;
+    color: rgb(250, 215, 145);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path24:before {
+    content: "\e917";
+    margin-left: -1em;
+    color: rgb(217, 167, 65);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path25:before {
+    content: "\e918";
+    margin-left: -1em;
+    color: rgb(135, 105, 41);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path26:before {
+    content: "\e919";
+    margin-left: -1em;
+    color: rgb(250, 215, 145);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path27:before {
+    content: "\e91a";
+    margin-left: -1em;
+    color: rgb(217, 167, 65);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path28:before {
+    content: "\e91b";
+    margin-left: -1em;
+    color: rgb(135, 105, 41);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path29:before {
+    content: "\e91c";
+    margin-left: -1em;
+    color: rgb(217, 167, 65);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path30:before {
+    content: "\e91d";
+    margin-left: -1em;
+    color: rgb(250, 215, 145);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path31:before {
+    content: "\e91e";
+    margin-left: -1em;
+    color: rgb(135, 105, 41);
+}
+.dashicons-wp-app-App_Services_copy_Amazon_Elastic_Transcoder .path32:before {
+    content: "\e91f";
+    margin-left: -1em;
+    color: rgb(250, 215, 145);
+}
+.dashicons-wp-app-appointments:before {
+    content: "\e920";
+}
+.dashicons-wp-app-booking:before {
+    content: "\e921";
+}
+.dashicons-wp-app-braintree-sandbox-logo:before {
+    content: "\e922";
+}
+.dashicons-wp-app-braintree-sandbox-logo-white:before {
+    content: "\e923";
+}
+.dashicons-wp-app-braintree-sandbox-logo-white-new:before {
+    content: "\e924";
+}
+.dashicons-wp-app-build14_512:before {
+    content: "\e925";
+}
+.dashicons-wp-app-builder:before {
+    content: "\e926";
+}
+.dashicons-wp-app-Buisness_Services_512:before {
+    content: "\e927";
+}
+.dashicons-wp-app-cancle:before {
+    content: "\e928";
+}
+.dashicons-wp-app-clone:before {
+    content: "\e929";
+}
+.dashicons-wp-app-connection:before {
+    content: "\e92a";
+}
+.dashicons-wp-app-copy:before {
+    content: "\e92b";
+}
+.dashicons-wp-app-customize:before {
+    content: "\e92c";
+}
+.dashicons-wp-app-delete:before {
+    content: "\e92d";
+}
+.dashicons-wp-app-destination:before {
+    content: "\e92e";
+}
+.dashicons-wp-app-dollar:before {
+    content: "\e92f";
+}
+.dashicons-wp-app-edit:before {
+    content: "\e930";
+}
+.dashicons-wp-app-event:before {
+    content: "\e931";
+}
+.dashicons-wp-app-export:before {
+    content: "\e932";
+}
+.dashicons-wp-app-gallery:before {
+    content: "\e933";
+}
+.dashicons-wp-app-location:before {
+    content: "\e934";
+}
+.dashicons-wp-app-plusicon:before {
+    content: "\e935";
+}
+.dashicons-wp-app-price_table:before {
+    content: "\e936";
+}
+.dashicons-wp-app-price_table_new:before {
+    content: "\e937";
+}
+.dashicons-wp-app-refresh:before {
+    content: "\e938";
+}
+.dashicons-wp-app-report:before {
+    content: "\e939";
+}
+.dashicons-wp-app-reviews:before {
+    content: "\e93a";
+}
+.dashicons-wp-app-room:before {
+    content: "\e93b";
+}
+.dashicons-wp-app-save:before {
+    content: "\e93c";
+}
+.dashicons-wp-app-service:before {
+    content: "\e93d";
+}
+.dashicons-wp-app-service_new:before {
+    content: "\e93e";
+}
+.dashicons-wp-app-services:before {
+    content: "\e93f";
+}
+.dashicons-wp-app-setting_modern:before {
+    content: "\e940";
+}
+.dashicons-wp-app-team:before {
+    content: "\e941";
+}
+.dashicons-wp-app-team_new:before {
+    content: "\e942";
+}
+.dashicons-wp-app-testimonial:before {
+    content: "\e943";
+}
+.dashicons-wp-app-worker:before {
+    content: "\e945";
+}
+.dashicons-wp-app-workshop:before {
+    content: "\e946";
+}
+

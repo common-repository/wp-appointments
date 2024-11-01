@@ -1,0 +1,249 @@
+.dashicons-wp-app-appointments,
+.dashicons-wp-app-setting_modern
+{
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+table.search-filter {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    margin-top: 15px;
+    padding: 0 15px;
+    width: 100%;
+}
+table.search-filter tr {
+    height: 50px;
+}
+table.search-filter td:nth-child(odd) {
+    width: 10%;
+}
+table.search-filter td:nth-child(even) {
+    width: 33.33%;
+}
+/* button style*/
+.btn {
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 7px 15px;
+    text-transform: none;
+    transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    text-align: center;
+}
+.btn.red {
+    background: none repeat scroll 0 0 #E0645C;
+    color: #FFFFFF;
+}
+.btn.red:hover {
+    background: none repeat scroll 0 0 #999999;
+    color: #FFFFFF;
+}
+.btn.green {
+    background: none repeat scroll 0 0 #46b98a;
+    color: #FFFFFF;
+}
+.btn.green:hover {
+    background: none repeat scroll 0 0 #444444;
+    color: #FFFFFF;
+}
+.btn.dark {
+    background: none repeat scroll 0 0 #444444;
+    color: #FFFFFF;
+}
+.btn.dark:hover {
+    background: none repeat scroll 0 0 #2DB6CF;
+    color: #FFFFFF;
+}
+.btn.light {
+    background: none repeat scroll 0 0 #999999;
+    color: #FFFFFF;
+}
+.btn.light:hover {
+    background: none repeat scroll 0 0 #444444;
+    color: #FFFFFF;
+}
+.btn.blue {
+    background: none repeat scroll 0 0 #2DB6CF;
+    color: #FFFFFF;
+}
+.btn.blue:hover {
+    background: none repeat scroll 0 0 #444444;
+    color: #FFFFFF;
+}
+.btn i {
+    margin-right: 10px;
+}
+
+/*select2 style*/
+.modal-inner .head .select2-container {
+    width: 95%;
+}
+.select2-container {
+    width: 90%;
+}
+.select2-drop {
+    display: none;
+}
+.select2-drop{
+    z-index:99999999;
+}
+.select2-choice, .select2-drop {
+    border-radius: 0 !important;
+}
+.select2-container .select2-choice abbr{
+    right: 5px;
+    top: 6px;
+}
+
+#s2id_start_time, #s2id_end_time, #s2id_interval {
+    width: 24.5%;
+}
+/*-----------------------------------*/
+.new-recors {
+    float: left;
+    margin-top: 15px;
+    width: 100%;
+}
+.new-recors.center {
+    text-align: center;
+}
+.modal-inner .new-recors {
+    margin-top: 0;
+}
+.content-wrap .new-recors {
+    text-align: center;
+}
+.appointment-table {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+}
+.appointment-table .head th {
+    padding: 20px;
+    width: 14.28%;
+}
+.appointment-table .head img {
+    width: 50px;
+}
+.appointment-table .head .desc {
+    max-height: 60px;
+    overflow: hidden;
+    white-space: pre-wrap;
+}
+section .appointment-table .head th:first-child {
+    padding: 20px;
+    width: 3% !important;
+}
+section .appointment-table .head th:last-child {
+    width: 25% !important;
+}
+.appointment-table .head th:last-child {
+    text-align: center;
+}
+.widefat tbody td {
+    border-bottom: 1px solid #e1e1e1;
+}
+.widefat tbody td {
+    padding: 5px 20px;
+    vertical-align: middle;
+}
+.widefat tbody td:last-child {
+    padding: 5px 10px;
+    text-align: center;
+}
+.no-record{
+    text-align: center;
+}
+
+/* overlay style*/
+#wp-appointment-overlap {
+    display: none;
+    background: #101010 none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999999;
+}
+#wp-appointment-overlap .loader {
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: helvetica, arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #b2b2b2;
+    letter-spacing: 0.2em;
+}
+#wp-appointment-overlap .loader::before, #wp-appointment-overlap .loader::after {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #b2b2b2;
+    position: absolute;
+    -webkit-animation: load .7s infinite alternate ease-in-out;
+    animation: load .7s infinite alternate ease-in-out;
+}
+#wp-appointment-overlap .loader::before {
+    top: 0;
+}
+#wp-appointment-overlap .loader::after {
+    bottom: 0;
+}
+
+@-webkit-keyframes load {
+    0% {
+        left: 0;
+        height: 30px;
+        width: 15px;
+    }
+    50% {
+        height: 8px;
+        width: 40px;
+    }
+    100% {
+        left: 235px;
+        height: 30px;
+        width: 15px;
+    }
+}
+
+@keyframes load {
+    0% {
+        left: 0;
+        height: 30px;
+        width: 15px;
+    }
+    50% {
+        height: 8px;
+        width: 40px;
+    }
+    100% {
+        left: 235px;
+        height: 30px;
+        width: 15px;
+    }
+}
+
+.content-center{
+    text-align: center;
+}
